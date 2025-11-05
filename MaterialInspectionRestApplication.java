@@ -11,7 +11,9 @@
 //import io.swagger.v3.oas.annotations.info.Contact;
 //import io.swagger.v3.oas.annotations.info.Info;
 
-
+jwt:
+  secret: ${JWT_SECRET:YXBs1WfPnt3hPEirCjnq6zGXBhp5naYUH/aVV9si5y4=}
+  validity-ms: ${JWT_VALIDITY_MS:3600000}
 
 //public class MaterialInspectionRestApplication {
 //
