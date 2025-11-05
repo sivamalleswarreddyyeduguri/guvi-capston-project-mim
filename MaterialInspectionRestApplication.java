@@ -14,6 +14,8 @@
 jwt:
   secret: ${JWT_SECRET:YXBs1WfPnt3hPEirCjnq6zGXBhp5naYUH/aVV9si5y4=}
   validity-ms: ${JWT_VALIDITY_MS:3600000}
+            password-validation: "^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=!*()]).{8,}$"
+
 
 //public class MaterialInspectionRestApplication {
 //
